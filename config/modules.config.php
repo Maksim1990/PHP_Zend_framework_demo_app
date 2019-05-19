@@ -6,9 +6,9 @@
  */
 
 /**
- * List of enabled modules for this application.
+ * List of enabled modules for this portal.
  *
- * This should be an array of module namespaces used in the application.
+ * This should be an array of module namespaces used in the portal.
  */
 return [
     'Zend\ServiceManager\Di',
@@ -26,5 +26,6 @@ return [
     'Zend\Router',
     'Zend\Validator',
     'ZendDeveloperTools',
-    'Application',
+    'ZFT',
+    'Portal',
 ];
