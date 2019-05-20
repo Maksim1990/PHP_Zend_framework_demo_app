@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <phpunit colors="true">
     <testsuites>
+        <testsuite name="ZFT Test Suite">
+            <directory>./module/ZFT/tests</directory>
+        </testsuite>
         <testsuite name="Web Test Suite">
             <directory>./module/Portal/test</directory>
-        </testsuite>
-        <testsuite name="ZFT Test Suite">
-            <directory>./module/ZFT/test</directory>
         </testsuite>
     </testsuites>
 </phpunit>

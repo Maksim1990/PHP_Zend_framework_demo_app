@@ -9,11 +9,13 @@
 
 namespace ZFTTest;
 
-class SampleTest extends Framework\TestCase
+use Zend\Test\PHPUnit\Controller\AbstractHttpControllerTestCase;
+
+class SampleTest extends AbstractHttpControllerTestCase
 {
 
     public function testSample()
     {
-        $this->assertInstanceOf('Zend\Di\LocatorInterface', $this->getLocator());
+        $this->assertTrue(true);
     }
 }

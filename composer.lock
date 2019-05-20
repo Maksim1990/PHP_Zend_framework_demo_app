@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "64816a236a4cf181d857435a26baacbf",
+    "content-hash": "ab17dd3fa5d668ac2c7ed5b51a4e689e",
     "packages": [
         {
             "name": "container-interop/container-interop",
@@ -279,21 +279,21 @@
         },
         {
             "name": "zendframework/zend-authentication",
-            "version": "2.6.0",
+            "version": "2.7.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/zendframework/zend-authentication.git",
-                "reference": "ebc9464c11a5203e5256439f1079a7d6efe89eec"
+                "reference": "1f379f6384fca34b3bfe94d953abd65e9e7ee746"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/zendframework/zend-authentication/zipball/ebc9464c11a5203e5256439f1079a7d6efe89eec",
-                "reference": "ebc9464c11a5203e5256439f1079a7d6efe89eec",
+                "url": "https://api.github.com/repos/zendframework/zend-authentication/zipball/1f379f6384fca34b3bfe94d953abd65e9e7ee746",
+                "reference": "1f379f6384fca34b3bfe94d953abd65e9e7ee746",
                 "shasum": ""
             },
             "require": {
                 "php": "^5.6 || ^7.0",
-                "zendframework/zend-stdlib": "^2.7.7 || ^3.1"
+                "zendframework/zend-stdlib": "^3.2.1"
             },
             "require-dev": {
                 "phpunit/phpunit": "^5.7.27 || ^6.5.8 || ^7.1.2",
@@ -318,8 +318,8 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "2.6.x-dev",
-                    "dev-develop": "2.7.x-dev"
+                    "dev-master": "2.7.x-dev",
+                    "dev-develop": "2.8.x-dev"
                 }
             },
             "autoload": {
@@ -337,7 +337,7 @@
                 "ZendFramework",
                 "zf"
             ],
-            "time": "2018-04-12T21:09:22+00:00"
+            "time": "2019-05-14T18:06:07+00:00"
         },
         {
             "name": "zendframework/zend-cache",
@@ -3461,16 +3461,16 @@
         },
         {
             "name": "phpunit/phpunit",
-            "version": "7.5.10",
+            "version": "7.5.11",
             "source": {
                 "type": "git",
                 "url": "https://github.com/sebastianbergmann/phpunit.git",
-                "reference": "d7d9cee051d03ed98df6023aad93f7902731a780"
+                "reference": "64cb33f5b520da490a7b13149d39b43cf3c890c6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/d7d9cee051d03ed98df6023aad93f7902731a780",
-                "reference": "d7d9cee051d03ed98df6023aad93f7902731a780",
+                "url": "https://api.github.com/repos/sebastianbergmann/phpunit/zipball/64cb33f5b520da490a7b13149d39b43cf3c890c6",
+                "reference": "64cb33f5b520da490a7b13149d39b43cf3c890c6",
                 "shasum": ""
             },
             "require": {
@@ -3541,7 +3541,7 @@
                 "testing",
                 "xunit"
             ],
-            "time": "2019-05-09T05:06:47+00:00"
+            "time": "2019-05-14T04:53:02+00:00"
         },
         {
             "name": "psr/http-server-handler",

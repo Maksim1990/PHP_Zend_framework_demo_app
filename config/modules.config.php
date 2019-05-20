@@ -11,6 +11,10 @@
  * This should be an array of module namespaces used in the portal.
  */
 return [
+    'Zend\I18n',
+    'Zend\InputFilter',
+    'Zend\Filter',
+    'Zend\Hydrator',
     'Zend\ServiceManager\Di',
     'Zend\Session',
     'Zend\Mvc\Plugin\Prg',
@@ -26,6 +30,7 @@ return [
     'Zend\Router',
     'Zend\Validator',
     'ZendDeveloperTools',
+    'User',
     'ZFT',
     'Portal',
 ];
