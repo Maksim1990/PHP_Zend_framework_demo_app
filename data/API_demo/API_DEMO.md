@@ -33,4 +33,6 @@ username, fullname, email, phoneno, address
 ### 5) Delete user
 - ROUTE: **/api/user/{user_id}**
 - METHOD: **DELETE**
+```
+```
 ![Mockup for feature A](https://github.com/Maksim1990/PHP_Zend_framework_demo_app/blob/master/data/API_demo/delete.png)
