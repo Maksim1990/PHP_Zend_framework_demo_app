@@ -4,7 +4,7 @@ services:
   zf:
     build:
       context: .
-      dockerfile: Dockerfile
+      dockerfile: docker/zend/Dockerfile
       args:
         - WITH_XDEBUG=true
     env_file: .env
@@ -20,15 +20,16 @@ services:
       PHP_IDE_CONFIG: "serverName=Docker"
 
   mysql:
-      image: mysql:5.7.21
-      environment:
-        MYSQL_ROOT_PASSWORD: root
-        MYSQL_DATABASE: zend_db
-        MYSQL_USER: docker
-        MYSQL_PASSWORD: docker
-      ports:
-        - "8989:3306"
-      volumes:
-        - ./data/mysql:/var/lib/mysql
+    build:
+      context: ./Docker/mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: root
+      MYSQL_DATABASE: zend_db
+      MYSQL_USER: docker
+      MYSQL_PASSWORD: docker
+    ports:
+      - "8989:3306"
+    volumes:
+      - ./data/mysql:/var/lib/mysql
 
 
