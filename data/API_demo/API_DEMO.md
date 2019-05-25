@@ -4,10 +4,12 @@
 ### 1) Get list of users
 - ROUTE: **/api/user**
 - METHOD: **GET**
-
+```
+```
 ### 2) Get specific user data
 - ROUTE: **/api/user/{user_id}**
 - METHOD: **GET**
+
 ![Mockup for feature A](https://github.com/Maksim1990/PHP_Zend_framework_demo_app/blob/master/data/API_demo/get.png)
 
 ### 3) Create new user
@@ -31,4 +33,4 @@ username, fullname, email, phoneno, address
 ### 5) Delete user
 - ROUTE: **/api/user/{user_id}**
 - METHOD: **DELETE**
-![Mockup for feature A](https://github.com/Maksim1990/PHP_Zend_framework_demo_app/blob/master/data/API_demo/detete.png)
+![Mockup for feature A](https://github.com/Maksim1990/PHP_Zend_framework_demo_app/blob/master/data/API_demo/delete.png)
